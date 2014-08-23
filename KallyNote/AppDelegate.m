@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainTabController *mainTabController = [[MainTabController alloc] init];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = mainTabController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

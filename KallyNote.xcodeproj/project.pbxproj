@@ -13,14 +13,15 @@
 		E0E36E7A19A6E00F00DDC555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E36E7819A6E00F00DDC555 /* InfoPlist.strings */; };
 		E0E36E7C19A6E00F00DDC555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36E7B19A6E00F00DDC555 /* main.m */; };
 		E0E36E8019A6E00F00DDC555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36E7F19A6E00F00DDC555 /* AppDelegate.m */; };
-		E0E36E8319A6E00F00DDC555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E36E8119A6E00F00DDC555 /* Main.storyboard */; };
-		E0E36E8619A6E00F00DDC555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36E8519A6E00F00DDC555 /* ViewController.m */; };
 		E0E36E8819A6E00F00DDC555 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E36E8719A6E00F00DDC555 /* Images.xcassets */; };
 		E0E36E8F19A6E00F00DDC555 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E36E8E19A6E00F00DDC555 /* XCTest.framework */; };
 		E0E36E9019A6E00F00DDC555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E36E6F19A6E00F00DDC555 /* Foundation.framework */; };
 		E0E36E9119A6E00F00DDC555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E36E7319A6E00F00DDC555 /* UIKit.framework */; };
 		E0E36E9919A6E01000DDC555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E36E9719A6E01000DDC555 /* InfoPlist.strings */; };
 		E0E36E9B19A6E01000DDC555 /* KallyNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36E9A19A6E01000DDC555 /* KallyNoteTests.m */; };
+		E0E36EA919A6E32D00DDC555 /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36EA819A6E32D00DDC555 /* MainTabController.m */; };
+		E0E36EBD19A7255300DDC555 /* BookKeepingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E36EBB19A7255300DDC555 /* BookKeepingController.m */; };
+		E0E36EC219A732E400DDC555 /* BookKeepingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E36EC119A732E400DDC555 /* BookKeepingController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +45,17 @@
 		E0E36E7D19A6E00F00DDC555 /* KallyNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KallyNote-Prefix.pch"; sourceTree = "<group>"; };
 		E0E36E7E19A6E00F00DDC555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0E36E7F19A6E00F00DDC555 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0E36E8219A6E00F00DDC555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0E36E8419A6E00F00DDC555 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0E36E8519A6E00F00DDC555 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0E36E8719A6E00F00DDC555 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0E36E8D19A6E00F00DDC555 /* KallyNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KallyNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E36E8E19A6E00F00DDC555 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E0E36E9619A6E01000DDC555 /* KallyNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KallyNoteTests-Info.plist"; sourceTree = "<group>"; };
 		E0E36E9819A6E01000DDC555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0E36E9A19A6E01000DDC555 /* KallyNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KallyNoteTests.m; sourceTree = "<group>"; };
+		E0E36EA719A6E32D00DDC555 /* MainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabController.h; sourceTree = "<group>"; };
+		E0E36EA819A6E32D00DDC555 /* MainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabController.m; sourceTree = "<group>"; };
+		E0E36EBA19A7255300DDC555 /* BookKeepingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookKeepingController.h; sourceTree = "<group>"; };
+		E0E36EBB19A7255300DDC555 /* BookKeepingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookKeepingController.m; sourceTree = "<group>"; };
+		E0E36EC119A732E400DDC555 /* BookKeepingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookKeepingController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		E0E36E7519A6E00F00DDC555 /* KallyNote */ = {
 			isa = PBXGroup;
 			children = (
+				E0E36EA419A6E2AE00DDC555 /* Controllers */,
+				E0E36EA519A6E2AE00DDC555 /* Utility */,
+				E0E36EA619A6E2AE00DDC555 /* Views */,
 				E0E36E7E19A6E00F00DDC555 /* AppDelegate.h */,
 				E0E36E7F19A6E00F00DDC555 /* AppDelegate.m */,
-				E0E36E8119A6E00F00DDC555 /* Main.storyboard */,
-				E0E36E8419A6E00F00DDC555 /* ViewController.h */,
-				E0E36E8519A6E00F00DDC555 /* ViewController.m */,
 				E0E36E8719A6E00F00DDC555 /* Images.xcassets */,
 				E0E36E7619A6E00F00DDC555 /* Supporting Files */,
 			);
@@ -150,6 +153,32 @@
 				E0E36E9719A6E01000DDC555 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E36EA419A6E2AE00DDC555 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0E36EA719A6E32D00DDC555 /* MainTabController.h */,
+				E0E36EA819A6E32D00DDC555 /* MainTabController.m */,
+				E0E36EBA19A7255300DDC555 /* BookKeepingController.h */,
+				E0E36EBB19A7255300DDC555 /* BookKeepingController.m */,
+				E0E36EC119A732E400DDC555 /* BookKeepingController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E0E36EA519A6E2AE00DDC555 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E0E36EA619A6E2AE00DDC555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E36EC219A732E400DDC555 /* BookKeepingController.xib in Resources */,
 				E0E36E8819A6E00F00DDC555 /* Images.xcassets in Resources */,
 				E0E36E7A19A6E00F00DDC555 /* InfoPlist.strings in Resources */,
-				E0E36E8319A6E00F00DDC555 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E36E8619A6E00F00DDC555 /* ViewController.m in Sources */,
+				E0E36EBD19A7255300DDC555 /* BookKeepingController.m in Sources */,
+				E0E36EA919A6E32D00DDC555 /* MainTabController.m in Sources */,
 				E0E36E8019A6E00F00DDC555 /* AppDelegate.m in Sources */,
 				E0E36E7C19A6E00F00DDC555 /* main.m in Sources */,
 			);
@@ -280,14 +310,6 @@
 				E0E36E7919A6E00F00DDC555 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E0E36E8119A6E00F00DDC555 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0E36E8219A6E00F00DDC555 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		E0E36E9719A6E01000DDC555 /* InfoPlist.strings */ = {
@@ -456,6 +478,7 @@
 				E0E36EA019A6E01000DDC555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0E36EA119A6E01000DDC555 /* Build configuration list for PBXNativeTarget "KallyNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				E0E36EA319A6E01000DDC555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

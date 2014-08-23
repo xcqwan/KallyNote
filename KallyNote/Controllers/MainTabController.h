@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTabController.h
 //  KallyNote
 //
 //  Created by Zombie on 8/22/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BookKeepingController.h"
 
-@interface ViewController : UIViewController
+@interface MainTabController : UITabBarController
 
 @end
